@@ -1,0 +1,17 @@
+.SearchForm {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+}
+
+/* .SearchForm-company {
+
+} */
+
+.SearchForm-company::placeholder {
+  color: black;
+  font-weight: 500;
+}
+
+/* .SearchForm button {
+} */

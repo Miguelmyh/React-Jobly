@@ -1,0 +1,43 @@
+.intro {
+  display: flex;
+  text-align: center;
+  margin: 0 25rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(224, 227, 227);
+}
+
+.intro h1 {
+  margin: 0;
+}
+
+.Companies {
+  text-align: center;
+  margin: 0 25rem;
+  /* border: 10px solid black; */
+  overflow-y: scroll;
+  max-height: 60vh;
+}
+
+.Companies-search {
+  padding: 0;
+  margin: 0;
+}
+.Companies-Company:hover {
+  background-color: rgb(224, 227, 227);
+}
+
+.Companies-Company-link {
+  text-decoration: none;
+  margin: 0;
+  color: steelblue;
+}
+.Companies-all {
+  padding: 10px 0;
+  background-color: white;
+}
+
+.Companies-Company-link:hover {
+  color: black;
+  transition: 0.2s color;
+}

@@ -1,0 +1,28 @@
+.Company {
+  color: white;
+}
+
+.Company-Jobs {
+  max-height: 60vh;
+  text-align: left;
+  overflow-y: scroll;
+}
+
+.Company-Jobs-job {
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(128, 128, 128, 0.6);
+}
+
+.Company-Jobs-job h4 {
+  margin-right: 20px;
+}
+
+.Company-Jobs-job input[type="button"] {
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+}
